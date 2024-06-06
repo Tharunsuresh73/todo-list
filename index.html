@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>todos</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="todo.js">
+    <body>
+            <header class="header">
+                <div class="main-container">
+                    <h1>Todos</h1>
+                <br>
+                <input class="input" placeholder="What needs to be done?"/>
+                <div class="task-container">
+                    <div class="view">
+                    </div>
+                <ul class="list"></ul>
+                <div class="footer">
+                    <footer>
+                        <button class="uncompleted"></button>
+                        <button onclick="showAll()">All</button>
+                        <button onclick="showActive()">Active</button>
+                        <button onclick="showCompleted()">Completed</button>
+                        <button onclick="showClearCompleted()">ClearCompleted</button>
+                    </footer>
+
+                </div>
+            </div>
+            </header>
+            <script src="todo.js"></script>
+            <div>
+                
+    </body>
+</html>
